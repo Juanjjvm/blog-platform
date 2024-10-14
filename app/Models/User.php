@@ -17,8 +17,8 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
-    protected $fillable = [
-        'name',
+    protected $fillable = [ // fillable: para guardar las propiedades que queremos que se asignen masivamente 
+        'full_name',
         'email',
         'password',
     ];
